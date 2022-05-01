@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences</title>
+    <link rel="shortcut icon" href="./asset/img/logo_shortcut_icon.ico">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fontawesome-free-6.0.0-beta2-web/fontawesome-free-6.0.0-beta2-web/css/all.min.css">
+</head>
+<body>
+    <input type="checkbox" id="modal--open">
+    <div class="main ">
+        <div class="landing-page__notification">
+            <a href="" class="landing-page__notification-link">
+                Nhận thông tin mới nhất vể biện pháp ứng phó COVID-19 của chúng tôi
+            </a>
+        </div>
+                
+        <div class="nav pad-0-40">
+            <div class="nav__logo">
+                <a href="" class="nav__logo-link">
+                        <svg width="102" height="32" fill="currentcolor" style="display: block;"><path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"></path></svg>
+                    </a>
+            </div>
+            <div class="nav__content-label-list">
+                <input type="radio" name="nav__content-menu" class="radio-btn" id="noi-o" checked>
+                <input type="radio" name="nav__content-menu" class="radio-btn" id="trai-nghiem">
+                <label for="noi-o" class="nav__content-label-item" id="noi-o__label">
+                        Nơi ở
+                </label>
+                <label for="trai-nghiem" class="nav__content-label-item" id="trai-nghiem__label">
+                        Trải nghiệm
+                </label>
+                <div class="nav__content-label-item">
+                    <a class="nav__content-label-item-link" href=""> 
+                        Trải nghiệm trực tuyến
+                    </a>
+                </div>
+                <div class="nav__content-box">
+                    <div class="nav__content-box-menu">
+                       
+                        <div class="nav__content-box-item">
+                            <h2 class="nav__content-box-item__heading">
+                                Địa điểm
+                            </h2>
+                            <input type="text" class="nav__content-box-item__description" placeholder="Bạn sắp đi đâu?">
+                                
+                            </input>
+                        </div>
+                        <div class="nav__content-box-item" id="box__noi-o">
+                            <h2 class="nav__content-box-item__heading">
+                                Nhận phòng
+                            </h2>
+                            <input type="text" class="nav__content-box-item__description" placeholder="Thêm ngày">
+                                
+                            </input>
+                        </div>
+                        <div class="nav__content-box-item" id="box__noi-o">
+                            <h2 class="nav__content-box-item__heading">
+                                Trả phòng
+                            </h2>
+                            <input type="text" class="nav__content-box-item__description" placeholder="Thêm ngày">
+                                
+                            </input>
+                        </div>
+                        <div class="nav__content-box-item" id="box__noi-o">
+                            <h2 class="nav__content-box-item__heading">
+                                Khách
+                            </h2>
+                            <input type="text" class="nav__content-box-item__description" placeholder="Thêm khách">
+                                
+                            </input>
+                        </div>
+                        <div class="nav__content-box-item" id="box__trai-nghiem">
+                            <h2 class="nav__content-box-item__heading">
+                                Ngày
+                            </h2>
+                            <input type="text" class="nav__content-box-item__description" placeholder="Thêm thời gian muốn tham gia">
+                            
+                            </input>
+                        </div>
+                        <div class="nav__content-box-item--on-scroll" >
+                            Bắt đầu tìm kiếm
+                        </div>
+                        <button class="nav__content-box-search">
+                            <i class="nav__content-box-search-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="nav__owner">
+                <div class="nav__owner-wrap">
+                    <a class="nav__owner-policy btn-style btn-style--hover">
+                        Trở thành chủ nhà
+                    </a>
+                    <a class="nav__owner-language btn-style btn-style--hover">
+                        <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px; fill: currentcolor;"><path d="m8.002.25a7.77 7.77 0 0 1 7.748 7.776 7.75 7.75 0 0 1 -7.521 7.72l-.246.004a7.75 7.75 0 0 1 -7.73-7.513l-.003-.245a7.75 7.75 0 0 1 7.752-7.742zm1.949 8.5h-3.903c.155 2.897 1.176 5.343 1.886 5.493l.068.007c.68-.002 1.72-2.365 1.932-5.23zm4.255 0h-2.752c-.091 1.96-.53 3.783-1.188 5.076a6.257 6.257 0 0 0 3.905-4.829zm-9.661 0h-2.75a6.257 6.257 0 0 0 3.934 5.075c-.615-1.208-1.036-2.875-1.162-4.686l-.022-.39zm1.188-6.576-.115.046a6.257 6.257 0 0 0 -3.823 5.03h2.75c.085-1.83.471-3.54 1.059-4.81zm2.262-.424c-.702.002-1.784 2.512-1.947 5.5h3.904c-.156-2.903-1.178-5.343-1.892-5.494l-.065-.007zm2.28.432.023.05c.643 1.288 1.069 3.084 1.157 5.018h2.748a6.275 6.275 0 0 0 -3.929-5.068z"></path></svg>
+                    </a>
+                </div>
+                <label for="signin_menu-open" class="nav__owner-signin btn-style">
+                    <i class="nav__owner-signin-icon icon-nav fas fa-bars"></i>
+                    <i class="nav__owner-signin-icon icon-user fas fa-user-circle"></i>
+                    <input type="checkbox" class="signin-menu-open" id="signin_menu-open" >
+                    <ul class="signin__menu">
+                        
+                        <label for="modal--open" class="signin_item">
+                           
+                                 Đăng ký
+                            
+                        </label>
+                    
+                        
+                        <label for="modal--open" class="signin_item">
+                            Đăng nhập
+                        </label>
+                   
+                        <li class="signin_item">
+                            Cho thuê nhà
+                        </li>
+                        <li class="signin_item">
+                            Tổ chức trải nghiệm
+                        </li>
+                        <li class="signin_item">
+                            Trợ giúp
+                        </li>
+                    </ul>
+                </label>
+            </div>
+        </div>
+        <div class="header">
+            <img class="landing-page__img" src="./asset/img/landing_page_img.webp"></img>
+
+            <div class="call-action">
+                <h3 class="call-action__label">
+                    Bạn chưa biết nên đi đâu? Tuyệt!
+                </h3>
+
+                <a class="call-action__link" href="">
+                    <h1 class="call-action__content">
+                        Tìm kiếm linh hoạt
+                    </h1> 
+                </a>
+            </div>
+
+        </div>
+        <div class="body">
+            <div class="pad-0-40 landing-content">
+                <img src="./asset/img/content_img.webp" alt="" class="landing-content__img">
+                <div class="landing-content__wrap">
+
+                    <h3 class="landing-content__heading">Thử đón tiếp khách</h3>
+                    <span class="landing-content__description">
+                        Kiếm thêm thu nhập và khám phá các cơ hội mới bằng cách chia sẻ nơi ở của bạn.
+                    </span>
+                    <a href="" class="landing-content__link">
+                        Tìm hiểu thêm
+                    </a>
+                </div>
+            </div>
+                         
+                <div class="pad-0-40 galery">
+                    <div class="galery__heading">
+                        Khám phá những điều nên trải nghiệm
+                    </div>
+                    <div class="galery__list">
+                        <div class="galery__item">
+                            <a href="" class="galery__item-link">
+
+                                <img src="./asset/img/trai_nghiem.jpg" alt="" class="galery__item-img">
+                                <div class="galery__item-heading">
+                                    Trải nghiệm
+                                </div>
+                                <div class="galery__item-description">
+                                    Tìm các hoạt động khó quên gần bạn
+                                </div>
+                            </a>
+                        </div>
+                        <div class="galery__item">
+                            <a href="" class="galery__item-link">
+
+                                <img src="./asset/img/trai_nghiem_thuc_te.jpg" alt="" class="galery__item-img">
+                                <div class="galery__item-heading">
+                                    Trải nghiệm trực tuyến.
+                                </div>
+                                <div class="galery__item-description">
+                                    Các hoạt động tương tác, truyền trực tiếp dưới sự dẫn dắt của Người tổ chức
+                                </div>
+                            </a>
+                        </div>
+                        <div class="galery__item">
+                            <a href="" class="galery__item-link">
+
+                                <img src="./asset/img/bo_suu_tap_noi_bat.jpg" alt="" class="galery__item-img">
+                                <div class="galery__item-heading">
+                                    Bộ sưu tập nổi bật: Phiêu du
+                                </div>
+                                <div class="galery__item-description">
+                                    Du lịch tại nhà với Trải nghiệm trực tuyến
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            
+        </div>
+        <div class="footer">
+            <div class="pad-0-40 footer__info">
+                <div class="information gioi-thieu">
+                    <div class="information__heading">
+                        Giới thiệu
+                    </div>
+                    <ul class="information__list">
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                                Phương thức hoạt động của Airbnb
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                                Trang tin tức
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Airbnb 2021
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Nhà đầu tư
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Airbnb Plus
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Airbnb Luxe
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               HotelTonight
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Airbnb for Work
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Nhờ có Host, mọi điều đều có thể
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Cơ hội nghề nghiệp
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Thư của nhà sáng tạo
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="information cong-dong">
+                    <div class="information__heading">
+                        Cộng đồng
+                    </div>
+                    <ul class="information__list">
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                                Sự đa dạng và Cảm giác thân thuộc
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                                Tiện nghi phù hợp với người có nhu cầu đặc biệt
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Đối tác liên kết Airbnb
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Đón tiếp người tị nạn Afghanistan
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Lượt giới thiệu của khách
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Airbnb.org
+                        </li>
+                    </ul>
+                </div>
+                <div class="information ho-tro">
+                    <div class="information__heading">
+                        hỗ trợ
+                    </div>
+                    <ul class="information__list">
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Biện pháp ứng phó với đại dịch COVID-19 của chúng tôi
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                                Trung tâm trợ giúp
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                              Các tuỳ chọn huỷ
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Hỗ trợ khu dân cư
+                            </a>
+                        </li>
+                        <li class="information__item">
+                            <a href="" class="information__link">
+                               Tin cậy và an toàn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__ending pad-0-40">
+                <div class="airbnb__contact">
+                    <div class="set-up__list">
+                        <span class="set-up__item">
+                            <i class="set-up__item-icon fas fa-globe"></i>
+                            <span class="set-up__item-description">
+                                Tiếng Việt (VN)
+                            </span>
+                        </span>
+                        <span class="set-up__item">
+                            <i class="set-up__item-icon fas fa-dollar-sign"></i>
+                            <span class="set-up__item-description">
+                                USD
+                            </span>
+                        </span>
+                    </div>
+                    <div class="social-media">
+                        <a href="" class="social-media__link">
+                            <i class=" social-media__icon fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="social-media__link">
+                            <i class=" social-media__icon fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="social-media__link">
+                            <i class=" social-media__icon fab fa-instagram-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="airbnb__policy">
+                    <span class="airbnb__policy-heading">
+                        © 2021 Airbnb, Inc.
+                    </span>
+                    <ul class="airbnb__policy-list">
+                        <li class="airbnb__policy-item">
+                            Quyền riêng tư
+                        </li>
+                        <li class="airbnb__policy-item">
+                             Điều khoản 
+                        </li>
+                        <li class="airbnb__policy-item">
+                            Sơ đồ trang web
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="modal">
+        
+        <label  for="modal--open" class="modal__layout">
+            <div class="modal__box">
+                <div class="modal__box-heading">
+                    <label for="modal--open" class="modal--close">
+                        <i class="modal__box-heading__icon fas fa-times"></i>
+                    </label>
+                    <h3 class="modal__box-heading__name">
+                        Đăng nhập hoặc đăng ký
+                    </h3>
+                </div>
+                <div class="modal__box-body">
+                    <form>
+                    <h3 class="modal__box-body__heading">
+                        Chào mừng bạn đến với Airbnb
+                    </h3>
+                    <div class="modal__box-body__contact">
+                        <div class="modal__box-body__contact-item">
+                            <label for="phone_area_code" class="modal__box-body__contact-item-label phone_area_code">
+                                Quốc gia/Khu vực
+                            </label>
+                            <select class="modal__box-body__contact-input"  id="phone_area_code" name="phone_area_code" size="1" > 
+                                <option value="966SA">Ả Rập Xê-út (+966)</option><option value="93AF">Afghanistan (+93)</option><option value="20EG">Ai Cập (+20)</option><option value="355AL">Albania (+355)</option><option value="213DZ">Algeria (+213)</option><option value="376AD">Andorra (+376)</option><option value="244AO">Angola (+244)</option><option value="1AI">Anguilla (+1)</option><option value="1AG">Antigua và Barbuda (+1)</option><option value="43AT">Áo (+43)</option><option value="54AR">Argentina (+54)</option><option value="374AM">Armenia (+374)</option><option value="297AW">Aruba (+297)</option><option value="61AU">Australia (+61)</option><option value="994AZ">Azerbaijan (+994)</option><option value="91IN">Ấn Độ (+91)</option><option value="48PL">Ba Lan (+48)</option><option value="1BS">Bahamas (+1)</option><option value="973BH">Bahrain (+973)</option><option value="880BD">Bangladesh (+880)</option><option value="1BB">Barbados (+1)</option><option value="375BY">Belarus (+375)</option><option value="501BZ">Belize (+501)</option><option value="229BJ">Benin (+229)</option><option value="1BM">Bermuda (+1)</option><option value="975BT">Bhutan (+975)</option><option value="32BE">Bỉ (+32)</option><option value="591BO">Bolivia (+591)</option><option value="599BQ">Bonaire, Sint Eustatius và Saba (+599)</option><option value="387BA">Bosnia và Herzegovina (+387)</option><option value="267BW">Botswana (+267)</option><option value="351PT">Bồ Đào Nha (+351)</option><option value="55BR">Brazil (+55)</option><option value="673BN">Brunei (+673)</option><option value="359BG">Bulgaria (+359)</option><option value="226BF">Burkina Faso (+226)</option><option value="257BI">Burundi (+257)</option><option value="971AE">Các Tiểu Vương quốc Ả Rập Thống nhất (+971)</option><option value="237CM">Cameroon (+237)</option><option value="855KH">Campuchia (+855)</option><option value="1CA">Canada (+1)</option><option value="238CV">Cape Verde (+238)</option><option value="235TD">Chad (+235)</option><option value="56CL">Chile (+56)</option><option value="57CO">Colombia (+57)</option><option value="269KM">Comoros (+269)</option><option value="242CG">Congo (+242)</option><option value="506CR">Costa Rica (+506)</option><option value="1DO">Cộng hòa Dominica (+1)</option><option value="236CF">Cộng hòa Trung Phi (+236)</option><option value="225CI">Côte d’Ivoire (+225)</option><option value="385HR">Croatia (+385)</option><option value="53CU">Cuba (+53)</option><option value="599CW">Curaçao (+599)</option><option value="243CD">Democratic Republic of the Congo (+243)</option><option value="253DJ">Djibouti (+253)</option><option value="1DM">Dominica (+1)</option><option value="45DK">Đan Mạch (+45)</option><option value="61CX">Đảo Giáng Sinh (+61)</option><option value="44IM">Đảo Man (+44)</option><option value="672NF">Đảo Norfolk (+672)</option><option value="49DE">Đức (+49)</option><option value="593EC">Ecuador (+593)</option><option value="503SV">El Salvador (+503)</option><option value="291ER">Eritrea (+291)</option><option value="372EE">Estonia (+372)</option><option value="251ET">Ethiopia (+251)</option><option value="679FJ">Fiji (+679)</option><option value="241GA">Gabon (+241)</option><option value="220GM">Gambia (+220)</option><option value="995GE">Georgia (+995)</option><option value="233GH">Ghana (+233)</option><option value="350GI">Gibraltar (+350)</option><option value="299GL">Greenland (+299)</option><option value="1GD">Grenada (+1)</option><option value="590GP">Guadeloupe (+590)</option><option value="1GU">Guam (+1)</option><option value="502GT">Guatemala (+502)</option><option value="44GG">Guernsey (+44)</option><option value="594GF">Guiana thuộc Pháp (+594)</option><option value="224GN">Guinea (+224)</option><option value="240GQ">Guinea Xích Đạo (+240)</option><option value="245GW">Guinea-Bissau (+245)</option><option value="592GY">Guyana (+592)</option><option value="31NL">Hà Lan (+31)</option><option value="509HT">Haiti (+509)</option><option value="82KR">Hàn Quốc (+82)</option><option value="1US">Hoa Kỳ (+1)</option><option value="504HN">Honduras (+504)</option><option value="852HK">Hồng Kông (+852)</option><option value="36HU">Hungary (+36)</option><option value="30GR">Hy Lạp (+30)</option><option value="354IS">Iceland (+354)</option><option value="62ID">Indonesia (+62)</option><option value="964IQ">Iraq (+964)</option><option value="353IE">Ireland (+353)</option><option value="972IL">Israel (+972)</option><option value="39IT">Italy (+39)</option><option value="1JM">Jamaica (+1)</option><option value="44JE">Jersey (+44)</option><option value="962JO">Jordan (+962)</option><option value="7KZ">Kazakhstan (+7)</option><option value="254KE">Kenya (+254)</option><option value="686KI">Kiribati (+686)</option><option value="383XK">Kosovo (+383)</option><option value="965KW">Kuwait (+965)</option><option value="996KG">Kyrgyzstan (+996)</option><option value="246IO">Lãnh thổ Ấn Độ Dương thuộc Anh (+246)</option><option value="970PS">Lãnh thổ Palestine (+970)</option><option value="856LA">Lào (+856)</option><option value="371LV">Latvia (+371)</option><option value="266LS">Lesotho (+266)</option><option value="961LB">Li-băng (+961)</option><option value="231LR">Liberia (+231)</option><option value="218LY">Libya (+218)</option><option value="423LI">Liechtenstein (+423)</option><option value="370LT">Litva (+370)</option><option value="352LU">Luxembourg (+352)</option><option value="212MA">Ma-rốc (+212)</option><option value="853MO">Macao (+853)</option><option value="389MK">Bắc Macedonia (+389)</option><option value="261MG">Madagascar (+261)</option><option value="265MW">Malawi (+265)</option><option value="60MY">Malaysia (+60)</option><option value="960MV">Maldives (+960)</option><option value="223ML">Mali (+223)</option><option value="356MT">Malta (+356)</option><option value="596MQ">Martinique (+596)</option><option value="222MR">Mauritania (+222)</option><option value="230MU">Mauritius (+230)</option><option value="262YT">Mayotte (+262)</option><option value="52MX">Mexico (+52)</option><option value="691FM">Micronesia (+691)</option><option value="373MD">Moldova (+373)</option><option value="377MC">Monaco (+377)</option><option value="382ME">Montenegro (+382)</option><option value="1MS">Montserrat (+1)</option><option value="258MZ">Mozambique (+258)</option><option value="976MN">Mông Cổ (+976)</option><option value="95MM">Myanmar (+95)</option><option value="47NO">Na Uy (+47)</option><option value="500GS">Nam Georgia &amp; Quần đảo Nam Sandwich (+500)</option><option value="27ZA">Nam Phi (+27)</option><option value="211SS">Nam Sudan (+211)</option><option value="264NA">Namibia (+264)</option><option value="674NR">Nauru (+674)</option><option value="977NP">Nepal (+977)</option><option value="687NC">New Caledonia (+687)</option><option value="64NZ">New Zealand (+64)</option><option value="7RU">Nga (+7)</option><option value="81JP">Nhật Bản (+81)</option><option value="505NI">Nicaragua (+505)</option><option value="227NE">Niger (+227)</option><option value="234NG">Nigeria (+234)</option><option value="683NU">Niue (+683)</option><option value="968OM">Oman (+968)</option><option value="92PK">Pakistan (+92)</option><option value="680PW">Palau (+680)</option><option value="507PA">Panama (+507)</option><option value="675PG">Papua New Guinea (+675)</option><option value="595PY">Paraguay (+595)</option><option value="51PE">Peru (+51)</option><option value="33FR">Pháp (+33)</option><option value="358FI">Phần Lan (+358)</option><option value="63PH">Philippines (+63)</option><option value="689PF">Polynesia thuộc Pháp (+689)</option><option value="1PR">Puerto Rico (+1)</option><option value="974QA">Qatar (+974)</option><option value="358AX">Quần đảo Åland (+358)</option><option value="1MP">Quần đảo Bắc Mariana (+1)</option><option value="1KY">Quần đảo Cayman (+1)</option><option value="61CC">Quần đảo Cocos (Keeling) (+61)</option><option value="682CK">Quần đảo Cook (+682)</option><option value="500FK">Quần đảo Falkland (Malvinas) (+500)</option><option value="298FO">Quần đảo Faroe (+298)</option><option value="692MH">Quần đảo Marshall (+692)</option><option value="64PN">Quần đảo Pitcairn (+64)</option><option value="677SB">Quần đảo Solomon (+677)</option><option value="1TC">Quần đảo Turks và Caicos (+1)</option><option value="1VG">Quần đảo Virgin thuộc Anh (+1)</option><option value="1VI">Quần đảo Virgin thuộc Mỹ (+1)</option><option value="262RE">Réunion (+262)</option><option value="40RO">Romania (+40)</option><option value="250RW">Rwanda (+250)</option><option value="508PM">Saint Pierre và Miquelon (+508)</option><option value="685WS">Samoa (+685)</option><option value="1AS">Samoa thuộc Mỹ (+1)</option><option value="378SM">San Marino (+378)</option><option value="239ST">São Tomé và Príncipe (+239)</option><option value="420CZ">Séc (+420)</option><option value="221SN">Senegal (+221)</option><option value="381RS">Serbia (+381)</option><option value="248SC">Seychelles (+248)</option><option value="232SL">Sierra Leone (+232)</option><option value="65SG">Singapore (+65)</option><option value="1SX">Sint Maarten (+1)</option><option value="357CY">Síp (+357)</option><option value="421SK">Slovakia (+421)</option><option value="386SI">Slovenia (+386)</option><option value="252SO">Somalia (+252)</option><option value="94LK">Sri Lanka (+94)</option><option value="590BL">St. Barthélemy (+590)</option><option value="290SH">St. Helena (+290)</option><option value="1KN">St. Kitts và Nevis (+1)</option><option value="1LC">St. Lucia (+1)</option><option value="590MF">St. Martin (+590)</option><option value="1VC">St. Vincent và Grenadines (+1)</option><option value="249SD">Sudan (+249)</option><option value="597SR">Suriname (+597)</option><option value="47SJ">Svalbard và Jan Mayen (+47)</option><option value="268SZ">Swaziland (+268)</option><option value="886TW">Đài Loan (+886)</option><option value="992TJ">Tajikistan (+992)</option>
+                                <option value="255TZ">Tanzania (+255)</option>
+                                <option value="34ES">Tây Ban Nha (+34)</option>
+                                <option value="212EH">Tây Sahara (+212)
+                                    <option value="66TH">Thái Lan (+66)
+                                    <option value="379VA">Thành Vatican (+379)</option><option value="90TR">Thổ Nhĩ Kỳ (+90)</option><option value="46SE">Thụy Điển (+46)</option><option value="41CH">Thụy Sĩ (+41)</option><option value="670TL">Timor-Leste (+670)</option><option value="228TG">Togo (+228)</option><option value="690TK">Tokelau (+690)</option><option value="676TO">Tonga (+676)</option><option value="1TT">Trinidad và Tobago (+1)</option><option value="86CN">Trung Quốc (+86)</option><option value="216TN">Tunisia (+216)</option><option value="993TM">Turkmenistan (+993)</option><option value="688TV">Tuvalu (+688)</option><option value="256UG">Uganda (+256)</option><option value="380UA">Ukraina (+380)</option><option value="598UY">Uruguay (+598)</option><option value="998UZ">Uzbekistan (+998)</option><option value="678VU">Vanuatu (+678)</option><option value="58VE">Venezuela (+58)</option><option value="84VN">Việt Nam (+84)</option><option value="44GB">Vương quốc Anh (+44)</option><option value="681WF">Wallis và Futuna (+681)</option><option value="967YE">Yemen (+967)</option><option value="260ZM">Zambia (+260)</option><option value="263ZW">Zimbabwe (+263)</option></select>
+                            </select>
+                            <div class="dowm-arrow">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                        <div class="modal__box-body__contact-item">
+                            <input class="modal__box-body__contact-input phone_number phone_number-input" type="tel" id="phone_number"  value="" required pattern="[0-9]{10}" title="Số điện thoại quá ngắn hoặc chứa ký tự không hợp lệ">
+                            <label for="phone_number" class="modal__box-body__contact-item-label phone_number-label phone_number-label--remove">
+                                Số điện thoại
+                            </label>
+                            <span class="phone_area_code-input">
+                                + 966
+                            </span>
+                        </div>
+                    </div>
+                    <div class="modal__box-policy">
+                        Chúng tôi sẽ gọi điện hoặc nhắn tin cho bạn để xác nhận số điện thoại. Có áp dụng phí dữ liệu và phí tin nhắn tiêu chuẩn.
+                        <a href="" class="modal__box-policy-link">
+                            Chính sách về quyền riêng tư
+                        </a>
+                    </div>
+                    <input type="submit" class="modal__box-body-submit-btn" value="Tiếp tục">
+                        
+                    </input>
+                </form>
+                    <div class="modal__box-body-separate">
+                        <span class="box-body-separate-line">
+                            <span class="box-body-separate-text">
+                                hoặc
+                            </span>
+                        </span>
+                    </div>
+                    <div class="modal__box-body-social-media" href="">
+                        <a class="modal__box-body-social-media-item">
+                            <span class="social-media-item-logo bg-blue">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span class="social-media-item-name ">
+                                Tiếp tục với Facebook
+                            </span>
+                        </a>
+                        <a class="modal__box-body-social-media-item">
+                            <span class="social-media-item-logo ">
+                                <i class="fab fa-google"></i>
+                            </span>
+                            <span class="social-media-item-name ">
+                                Tiếp tục với Google
+                            </span>
+                        </a>
+                        <a class="modal__box-body-social-media-item">
+                            <span class="social-media-item-logo ">
+                                <i class="fab fa-apple"></i>
+                            </span>
+                            <span class="social-media-item-name ">
+                                Tiếp tục với Apple
+                            </span>
+                        </a>
+                        <a class="modal__box-body-social-media-item">
+                            <span class="social-media-item-logo ">
+                                <i class="far fa-envelope"></i>
+                            </span>
+                            <span class="social-media-item-name ">
+                                Tiếp tục với Email
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </label>
+    </div>
+    
+</body>
+<script>
+    const $ = document.querySelector.bind(document);
+    const $$ = document.querySelectorAll.bind(document);
+
+
+    // Xử lý thanh nav bar 
+    const navBar = $('.nav');
+    const navLogo = $('.nav__logo-link');
+    const landingPageNotification = $('.landing-page__notification')
+    const navBarStickyPositon = landingPageNotification.offsetHeight;
+    const contentBox = $('.nav__content-box');
+    const contentBoxMenu = $('.nav__content-box-menu');
+    const contentBoxItems = $$('.nav__content-box-item');
+    window.onscroll = function(){
+        if( navBar.offsetTop != navBarStickyPositon) {
+           navBar.classList.add('nav--on-scroll')
+        } else {
+            navBar.classList.remove('nav--on-scroll')
+        }
+    }
+    function test(){
+        console.log('test nè')
+    }
+    //dong mo sinin menu
+    const singInOpenCheckbox = $('.signin-menu-open');
+    const singInBox = $('.nav__owner-singin');
+    const singInMenu = $('.signin__menu');
+    singInMenu.onclick = function() {
+        singInOpenCheckbox.checked = false;
+    }
+    const main = $('.main');
+    const modalOpenBtn = $('.modal--open');
+   
+    // xử lú input number
+   
+    const phoneNumberLabel = $('.phone_number-label--remove');
+    const phoneNumberInput = $('.phone_number-input');
+    const phoneCodeSelect = $('#phone_area_code');
+    const phoneAreaCodeInput = $('.phone_area_code-input');
+
+    phoneCodeSelect.onchange = function() {
+        console.log(phoneCodeSelect.value)
+        let phoneCode = phoneCodeSelect.value.match(/[0-9]+/i);
+        phoneAreaCodeInput.innerHTML = `+ ${phoneCode[0]}`;
+    }
+    
+    phoneNumberInput.onkeyup = function() {
+            if(phoneNumberInput.value == 0) {
+                phoneAreaCodeInput.style.color = '#A0A0A0';
+                phoneNumberLabel.classList.add('phone_number-label');
+            } else {
+                phoneAreaCodeInput.style.color = 'var(--text-color)';
+                phoneNumberLabel.classList.remove('phone_number-label');
+            }
+    }
+
+   
+ 
+</script>
+</html>
